@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class pgm20{
+public class arraypgm8{
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         System.out.println("Enter a number:");

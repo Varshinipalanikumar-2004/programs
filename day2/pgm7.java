@@ -1,12 +1,20 @@
 public class pgm7 {
-    public static void main(String[]args) {
+    public static void main(String[] args) {
         int pass = 35;
-        int mymark = 90;
-        if (mymark>=pass){
-            System.out.println("Pass");
+        int mymark = 100;
+
+        if (mymark==100) {
+            System.out.println("centum");
         }
+        else if (mymark >= 50){
+                System.out.println( "Above 50");
+            }
+        else if (mymark >= pass){
+                System.out.println("pass");
+            }
+        
         else{
-            System.out.println("Fail");
+            System.out.println("fail");
         }
     }
     

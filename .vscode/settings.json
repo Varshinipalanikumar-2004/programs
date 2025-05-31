@@ -1,0 +1,10 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        "day4",
+        "day3",
+        "day2",
+        "day1",
+        "day5"
+    ]
+}

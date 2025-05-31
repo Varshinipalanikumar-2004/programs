@@ -1,4 +1,3 @@
-package day3;
 import java.util.Scanner;
 public class arraypgm5 {
  public static void main(String[] args){

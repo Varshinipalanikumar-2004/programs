@@ -1,12 +1,10 @@
-import java.util.Scanner;
-import java.util.scanner;
-public class hii {
+public class pgm3{
     public static void main(String[] args) {
-        Scanner sc = new Scanner(Syatem.in);
-        int a = sc.nextInt();
-        String s= sc.nextLine();
-        System.out.println("enter your maths mark")
-        
-    }
-
+        int A=1;
+        int B=2;
+        System.out.println("Addition" +"-" +(A+B));
+        System.out.println("Subtraction"+"-" +(A-B));
+        System.out.println("Multiplication"+"-" +(A*B));
+        System.out.println("Division"+"-" +(A/B));
+        }
 }

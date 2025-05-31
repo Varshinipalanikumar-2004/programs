@@ -1,4 +1,3 @@
-/*If else */
 import java.util.Scanner;
 public class pgm9 {
     public static void main(String[] args) {
@@ -17,11 +16,29 @@ public class pgm9 {
       }
       System.out.printf("Hi %s you Register number is %d.\n", name, reg);
       for(int j =0; j< sub; j++){
-        if (mymark[j] > 35){
-            System.out.printf("\nMark%d = %d; Status = Pass\n",j+1, mymark[j]);
+        if (mymark[j] < 35){
+            System.out.printf("\nMark%d = %d; Status = Fail; Grade = U\n",j+1, mymark[j]);
+        }
+        else if (mymark[j] >=35 && mymark[j] < 50){
+            System.out.printf("\nMark%d = %d; Status = Pass; Grade = E\n",j+1, mymark[j]);
+        }
+        else if (mymark[j] >=50 && mymark[j] < 60){
+            System.out.printf("\nMark%d = %d; Status = Pass; Grade = D\n",j+1, mymark[j]);
+        }
+        else if (mymark[j] >=60 && mymark[j] < 70){
+            System.out.printf("\nMark%d = %d; Status = Pass; Grade = C\n",j+1, mymark[j]);
+        }
+        else if (mymark[j] >=70 && mymark[j] < 80){
+            System.out.printf("\nMark%d = %d; Status = Pass; Grade = B\n",j+1, mymark[j]);
+        }
+        else if (mymark[j] >=80 && mymark[j] < 90){
+            System.out.printf("\nMark%d = %d; Status = Pass; Grade = A\n",j+1, mymark[j]);
+        }
+        else if (mymark[j] >=90 && mymark[j] < 100){
+            System.out.printf("\nMark%d = %d; Status = Pass; Grade = S\n",j+1, mymark[j]);
         }
         else{
-            System.out.printf("\nMark%d = %d; Status = Fail\n",j+1, mymark[j]);
+            System.out.printf("\nMark%d = %d; Status = Centum; Grade = O\n",j+1, mymark[j]);
         }
       }
       int total = 0;
@@ -38,4 +55,3 @@ public class pgm9 {
       }
     }
 }
-     

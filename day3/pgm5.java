@@ -1,4 +1,4 @@
-public class pgm20 {
+public class pgm5 {
     public static void main(String[] args) {
         int number = 1999; 
         int reversed = 0;

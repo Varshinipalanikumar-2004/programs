@@ -1,10 +1,14 @@
-public class kare {
-    public static void main(string[] args) {
-        int eng=90 ;
-        int mat=100 ;
-        int tam=95 ;
-        system.out.println(english: "+ eng");
-        system.out.println(maths: "+ mat");
-        system.out.println(tamil:"+ tam);
-
+import java.util.Scanner;
+public class pgm1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int  a = sc.nextInt();
+        float  f = sc.nextFloat();
+        double d = sc.nextDouble();
+        String s = sc.nextLine();
+        System.out.println("This is what you entered "+(++a));
+        System.out.println("This is what you entered "+f);
+        System.out.println("This is what you entered "+d);
+        System.out.println("This is what you entered "+s);
     }
+}
