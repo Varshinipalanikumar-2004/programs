@@ -1,10 +1,18 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.sourcePaths": [
+        "practice problems",
+        "day9",
+        "day8",
+        "day7",
+        "day6",
+        "day5",
         "day4",
         "day3",
         "day2",
+        "day14",
+        "day12",
         "day1",
-        "day5"
+        "day15"
     ]
 }
